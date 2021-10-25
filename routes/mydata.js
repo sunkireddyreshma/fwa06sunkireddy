@@ -1,5 +1,5 @@
-var mydata = require('mydata');
-var router = mydata.Router();
+var express = require('express');
+var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
