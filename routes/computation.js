@@ -7,7 +7,7 @@ const querystring = require('querystring');
 /* GET my data page. */
 router.get('/', function(req, res, next) {
     var arg = req.query.value;
-    res.send('floor applied to: ' + arg + " is " + Math.floor(arg));
+    res.send('tan applied to: ' + arg + " is " + Math.tan(arg));
 });
 
 
